@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  MQStackView
+//
+//  Created by ma qi on 2020/11/12.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import "MacroTool.h"
+
+#define WIDTH_SCREEN        [UIScreen mainScreen].bounds.size.width
+#define HEIGHT_SCREEN       [UIScreen mainScreen].bounds.size.height
+#define HEIGHT_STATUS       [MacroTool getStatusHeight]
+#define HEIGHT_NAVBAR       44.f
+#define HEIGHT_TOP          (HEIGHT_STATUS + HEIGHT_NAVBAR)
+
+
+#endif /* PrefixHeader_pch */
